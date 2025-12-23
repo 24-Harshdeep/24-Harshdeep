@@ -11,7 +11,19 @@
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:youremail@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio12h.netlify.app)
 
-A pragmatic Full-Stack developer focusing on building scalable web applications and quality user experiences.
+Hi, I'm Harshdeep — a **Full-Stack Developer** passionate about building scalable, high-performance web applications and experimenting with AI-driven solutions.
+
+I focus on creating clean user interfaces, efficient backend systems, and seamless integrations that bridge creativity with functionality.
+
+### Currently exploring:
+
+- Advanced backend patterns with **Node.js** and **Express**
+- AI-powered product features using **OpenAI APIs**
+- Database design and deployment optimization with **MongoDB** and **Vercel**
+
+My development philosophy is simple — **write purposeful code, ship meaningful products, and keep learning every day.**
+
+When I'm not coding, I'm usually refining my learning path, contributing to open-source projects, or helping others get started with modern web technologies.
 
 ---
 
