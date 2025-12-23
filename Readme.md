@@ -40,31 +40,20 @@ graph LR
     D --> E
     E --> F[Production Deployment]
 ```
----
-
-## 🎯 Current Focus
-
-```mermaid
-graph LR
-    A[Learning] --> B[TypeScript]
-    A --> C[Next.js 14]
-    A --> D[Docker & K8s]
-    B --> E[Full-Stack Projects]
-    C --> E
-    D --> E
-    E --> F[Production Deployment]
-```
 
 ## 📚 Certifications
 
 <details>
 <summary>🎓 Click to view certifications</summary>
 
-- ✅ Prompt Engineering for ChatGPT – Coursera
-- ✅ Learning to Prompt – Coursera  
-- ✅ Introduction to Git and GitHub – Coursera
-- ✅ Version Control – Coursera
-- ✅ MongoDB & Backend Development – MongoDB University
+- ✅ [Prompt Engineering for ChatGPT – Coursera Certificate](https://www.coursera.org/account/accomplishments/records/XBMTKTPY0OW6)
+- ✅ Learning to Prompt – Effective prompts for AI models like ChatGPT
+- ✅ [Introduction to Git and GitHub – Coursera Certificate](https://www.coursera.org/account/accomplishments/records/D9E238813HKD) — Certified in foundational Git skills, including version control management and collaboration.
+- ✅ [Version Control – Coursera Certificate](https://www.coursera.org/account/accomplishments/records/TW70H2NAMY2I) — Learned version control best practices and collaborative workflows.
+- ✅ MongoDB & Backend Learning (examples / course links):
+  - [Connecting to a MongoDB Database](https://learn.mongodb.com/c/_VQTpjFKRNSGqsOqvSOX3g)
+  - [CRUD Operations: Insert and Find Documents](https://learn.mongodb.com/c/uyYeQapKTumGzcozYK7lGQ)
+  - [Getting Started with MongoDB Atlas](https://learn.mongodb.com/c/oiMdaLxcTwGHll-piWyAhA)
 
 </details>
 
