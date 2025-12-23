@@ -27,14 +27,19 @@ A pragmatic Full-Stack developer focusing on building scalable web applications 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=24-Harshdeep&theme=react-dark&hide_border=true&area=true" width="100%"/>
 </p>
- 
-### Visuals (generated)
-<p align="center">
-  <!-- Top languages generated from repo data -->
-  <img src="docs/images/top_languages.png" alt="Top languages" width="48%" style="max-width:48%;margin-right:1%"/>
-  <!-- Commits per repo -->
-  <img src="docs/images/repo_commits.png" alt="Commits per repo" width="48%" style="max-width:48%;"/>
-</p>
+
+## 🎯 Current Focus
+
+```mermaid
+graph LR
+    A[Learning] --> B[javaScript]
+    A --> C[nodejs]
+    A --> D[python in dsa]
+    B --> E[Full-Stack Projects]
+    C --> E
+    D --> E
+    E --> F[Production Deployment]
+```
 ---
 
 ## 🎯 Current Focus
