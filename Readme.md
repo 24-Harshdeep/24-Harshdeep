@@ -19,13 +19,21 @@ A pragmatic Full-Stack developer focusing on building scalable web applications 
 
 <div align="center">
   
-  ![Profile Views](https://komarev.com/ghpvc/?username=HARSHDEEP24&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
+  ![Profile Views](https://komarev.com/ghpvc/?username=24-Harshdeep&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
   
 </div>
 
 ### 📈 Contribution Graph
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HARSHDEEP24&theme=react-dark&hide_border=true&area=true" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=24-Harshdeep&theme=react-dark&hide_border=true&area=true" width="100%"/>
+</p>
+ 
+### Visuals (generated)
+<p align="center">
+  <!-- Top languages generated from repo data -->
+  <img src="docs/images/top_languages.png" alt="Top languages" width="48%" style="max-width:48%;margin-right:1%"/>
+  <!-- Commits per repo -->
+  <img src="docs/images/repo_commits.png" alt="Commits per repo" width="48%" style="max-width:48%;"/>
 </p>
 ---
 
