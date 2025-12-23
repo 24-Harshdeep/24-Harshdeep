@@ -52,8 +52,8 @@ graph LR
 **🤖 AI & Prompt Engineering**
 - ✅ [Prompt Engineering for ChatGPT](https://www.coursera.org/account/accomplishments/records/XBMTKTPY0OW6)  
   *Coursera · Mastering effective prompts for AI models*
-- 📝 Learning to Prompt  
-  *Effective prompts for AI models like ChatGPT*
+- ✅ [Learning to Prompt](https://www.coursera.org/account/accomplishments/verify/XBMTKTPY0OW6)  
+  *Coursera · Effective prompts for AI models like ChatGPT*
 
 </td>
 <td width="50%">
@@ -112,7 +112,6 @@ journey
   
   **💻 "Code with purpose, deploy with impact."**
   
-  ![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
-  ![Powered by Coffee](https://img.shields.io/badge/Powered%20by-☕-brown?style=for-the-badge)
+  Made with ❤️ | Powered by ☕
   
 </div>
