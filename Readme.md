@@ -41,28 +41,78 @@ graph LR
     E --> F[Production Deployment]
 ```
 
-## 📚 Certifications
+## 🎓 Certifications & Learning Path
 
-<details>
-<summary>🎓 Click to view certifications</summary>
+### � Professional Certificates
 
-- ✅ [Prompt Engineering for ChatGPT – Coursera Certificate](https://www.coursera.org/account/accomplishments/records/XBMTKTPY0OW6)
-- ✅ Learning to Prompt – Effective prompts for AI models like ChatGPT
-- ✅ [Introduction to Git and GitHub – Coursera Certificate](https://www.coursera.org/account/accomplishments/records/D9E238813HKD) — Certified in foundational Git skills, including version control management and collaboration.
-- ✅ [Version Control – Coursera Certificate](https://www.coursera.org/account/accomplishments/records/TW70H2NAMY2I) — Learned version control best practices and collaborative workflows.
-- ✅ MongoDB & Backend Learning (examples / course links):
-  - [Connecting to a MongoDB Database](https://learn.mongodb.com/c/_VQTpjFKRNSGqsOqvSOX3g)
-  - [CRUD Operations: Insert and Find Documents](https://learn.mongodb.com/c/uyYeQapKTumGzcozYK7lGQ)
-  - [Getting Started with MongoDB Atlas](https://learn.mongodb.com/c/oiMdaLxcTwGHll-piWyAhA)
+<table>
+<tr>
+<td width="50%">
 
-</details>
+**🤖 AI & Prompt Engineering**
+- ✅ [Prompt Engineering for ChatGPT](https://www.coursera.org/account/accomplishments/records/XBMTKTPY0OW6)  
+  *Coursera · Mastering effective prompts for AI models*
+- 📝 Learning to Prompt  
+  *Effective prompts for AI models like ChatGPT*
+
+</td>
+<td width="50%">
+
+**🔧 Version Control & Collaboration**
+- ✅ [Introduction to Git and GitHub](https://www.coursera.org/account/accomplishments/records/D9E238813HKD)  
+  *Coursera · Foundational Git skills & collaboration*
+- ✅ [Version Control](https://www.coursera.org/account/accomplishments/records/TW70H2NAMY2I)  
+  *Coursera · Best practices & workflows*
+
+</td>
+</tr>
+</table>
+
+### 🗄️ Backend & Database
+
+**MongoDB University**
+- 🔗 [Connecting to a MongoDB Database](https://learn.mongodb.com/c/_VQTpjFKRNSGqsOqvSOX3g)
+- 📄 [CRUD Operations: Insert and Find Documents](https://learn.mongodb.com/c/uyYeQapKTumGzcozYK7lGQ)
+- 🚀 [Getting Started with MongoDB Atlas](https://learn.mongodb.com/c/oiMdaLxcTwGHll-piWyAhA)
 
 ---
 
-## License & Contact
+## 🛤️ Learning Journey
 
-MIT · For business or collaboration inquiries: harshdeepkaur1208@gmail.com
+```mermaid
+journey
+    title My Full-Stack Development Path
+    section Foundation
+      HTML/CSS/JS: 5: Me
+      Git & GitHub: 5: Me
+    section Backend
+      Node.js: 4: Me
+      Express: 4: Me
+      MongoDB: 4: Me
+    section Frontend
+      React: 4: Me
+      Next.js: 3: Me
+    section Current Focus
+      TypeScript: 3: Me
+      Python DSA: 3: Me
+      Docker & DevOps: 2: Me
+```
 
 ---
 
-_If you'd like, I can add a sample screenshot file (placeholder) into `docs/images/` so you can see how it renders and to remove the "missing image" problem while you replace it with real screenshots._
+## 📬 Let's Connect
+
+💼 Open for collaboration on full-stack projects and open source contributions!
+
+**Contact:** harshdeepkaur1208@gmail.com
+
+---
+
+<div align="center">
+  
+  **💻 "Code with purpose, deploy with impact."**
+  
+  ![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
+  ![Powered by Coffee](https://img.shields.io/badge/Powered%20by-☕-brown?style=for-the-badge)
+  
+</div>
