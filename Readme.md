@@ -1,128 +1,133 @@
-<!--
-  Professional README for Harshdeep
-  - Visual-first layout with guidance for images that don't render on GitHub
-  - Keep this file at repo root as `Readme.md`
--->
-
-# Harshdeep — Full-Stack Developer
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harshdeep-kaur-58b5a4320/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:youremail@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio12h.netlify.app)
-
-Hi, I'm Harshdeep — a **Full-Stack Developer** passionate about building scalable, high-performance web applications and experimenting with AI-driven solutions.
-
-I focus on creating clean user interfaces, efficient backend systems, and seamless integrations that bridge creativity with functionality.
-
-### Currently exploring:
-
-- Advanced backend patterns with **Node.js** and **Express**
-- AI-powered product features using **OpenAI APIs**
-- Database design and deployment optimization with **MongoDB** and **Vercel**
-
-My development philosophy is simple — **write purposeful code, ship meaningful products, and keep learning every day.**
-
-When I'm not coding, I'm usually refining my learning path, contributing to open-source projects, or helping others get started with modern web technologies.
-
----
-
-## 📊 GitHub Analytics & Activity
+# Harshdeep Kaur — Full-Stack Developer
 
 <div align="center">
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=24-Harshdeep&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
-  
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/harshdeep-kaur-58b5a4320)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshdeepkaur1208@gmail.com)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio12h.netlify.app)
+  [![Location](https://img.shields.io/badge/Location-Assam,_India-4F46E5?style=for-the-badge&logo=google-maps&logoColor=white)](#)
+
 </div>
 
-### 📈 Contribution Graph
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=24-Harshdeep&theme=react-dark&hide_border=true&area=true" width="100%"/>
-</p>
+<br/>
 
-## 🎯 Current Focus
+Hi, I'm **Harshdeep Kaur** — a **Full-Stack Developer** with 6+ months of frontend internship experience and active **GSSoC 2026** open-source contributions. Skilled in building scalable MERN stack web applications, REST APIs, and AI-driven interactive products.
 
-```mermaid
-graph LR
-    A[Learning] --> B[javaScript]
-    A --> C[nodejs]
-    A --> D[python in dsa]
-    B --> E[Full-Stack Projects]
-    C --> E
-    D --> E
-    E --> F[Production Deployment]
-```
+---
 
-## 🎓 Certifications & Learning Path
+## Professional Experience
 
-### � Professional Certificates
+### Web Developer Intern | **Axemata Modas**
+*Jul 2026 – Present*
+- Developing full-stack MERN applications using **React.js, Node.js, Express.js, MongoDB**, and **TypeScript**.
+- Designing and implementing secure REST APIs, integrating client-side and server-side components.
+- Delivering new user-facing features, performance optimizations, and agile bug fixes.
+
+### Frontend Developer Intern | **Neximprove**
+*Jan 2026 – Jul 2026*
+- Built modular, reusable UI components using **React.js, TypeScript**, and **Tailwind CSS**.
+- Integrated RESTful backend endpoints, resolved cross-browser compatibility issues, and participated in Agile sprint reviews.
+
+---
+
+## Open Source Experience
+
+### Open Source Contributor | **GirlScript Summer of Code (GSSoC) 2026**
+*May 2026 – Present*
+- Contributed to the **CommitPulse** project with a focus on frontend feature enhancements and UI optimization.
+- Implemented frontend localization for multi-language support.
+
+---
+
+## Technical Skills
 
 <table>
-<tr>
-<td width="50%">
-
-**🤖 AI & Prompt Engineering**
-- ✅ [Prompt Engineering for ChatGPT](https://www.coursera.org/account/accomplishments/records/XBMTKTPY0OW6)  
-  *Coursera · Mastering effective prompts for AI models*
-- ✅ [Learning to Prompt](https://www.coursera.org/account/accomplishments/verify/XBMTKTPY0OW6)  
-  *Coursera · Effective prompts for AI models like ChatGPT*
-
-</td>
-<td width="50%">
-
-**🔧 Version Control & Collaboration**
-- ✅ [Introduction to Git and GitHub](https://www.coursera.org/account/accomplishments/records/D9E238813HKD)  
-  *Coursera · Foundational Git skills & collaboration*
-- ✅ [Version Control](https://www.coursera.org/account/accomplishments/records/TW70H2NAMY2I)  
-  *Coursera · Best practices & workflows*
-
-</td>
-</tr>
+  <tr>
+    <td width="50%">
+      <b>Languages & Frontend</b><br/>
+      <code>JavaScript (ES6+)</code> • <code>TypeScript</code> • <code>HTML5</code> • <code>CSS3</code> • <code>Python</code><br/>
+      <code>React.js</code> • <code>React Router</code> • <code>Tailwind CSS</code> • <code>Responsive UI</code>
+    </td>
+    <td width="50%">
+      <b>Backend & Databases</b><br/>
+      <code>Node.js</code> • <code>Express.js</code> • <code>MongoDB</code> • <code>REST APIs</code> • <code>JWT Auth</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <b>Tools & Deployment</b><br/>
+      <code>Git</code> • <code>GitHub</code> • <code>Postman</code> • <code>VS Code</code> • <code>Vercel</code> • <code>Netlify</code>
+    </td>
+    <td width="50%">
+      <b>Core Strengths</b><br/>
+      Full-Stack Architecture • API Integration • Component Design • Open Source
+    </td>
+  </tr>
 </table>
 
-### 🗄️ Backend & Database
+---
 
-**MongoDB University**
-- 🔗 [Connecting to a MongoDB Database](https://learn.mongodb.com/c/_VQTpjFKRNSGqsOqvSOX3g)
-- 📄 [CRUD Operations: Insert and Find Documents](https://learn.mongodb.com/c/uyYeQapKTumGzcozYK7lGQ)
-- 🚀 [Getting Started with MongoDB Atlas](https://learn.mongodb.com/c/oiMdaLxcTwGHll-piWyAhA)
+## Selected Projects
+
+| Project | Tech Stack | Key Highlights | Links |
+| :--- | :--- | :--- | :---: |
+| **ZaikaHub** | React • React Router • REST API • Tailwind | Recipe discovery platform with REST API integration & responsive Tailwind UI. | [Portfolio](https://portfolio12h.netlify.app) |
+| **Adaptive Chatbot** | React • Node.js • Express • MongoDB | AI-powered conversational chatbot with session management & persistent MongoDB storage. | [Portfolio](https://portfolio12h.netlify.app) |
+| **Resume Analyzer** | React • Tailwind CSS • REST API | AI resume evaluator providing ATS-focused improvement suggestions & real-time feedback. | [Portfolio](https://portfolio12h.netlify.app) |
 
 ---
 
-## 🛤️ Learning Journey
+## GitHub Analytics & Activity
 
-```mermaid
-journey
-    title My Full-Stack Development Path
-    section Foundation
-      HTML/CSS/JS: 5: Me
-      Git & GitHub: 5: Me
-    section Backend
-      Node.js: 4: Me
-      Express: 4: Me
-      MongoDB: 4: Me
-    section Frontend
-      React: 4: Me
-      Next.js: 3: Me
-    section Current Focus
-      TypeScript: 3: Me
-      Python DSA: 3: Me
-      Docker & DevOps: 2: Me
-```
+<div align="center">
+  ![Profile Views](https://komarev.com/ghpvc/?username=24-Harshdeep&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://portfolio12h.netlify.app/index.html">
+    <img src="https://img.shields.io/badge/Live_Interactive_Dashboard-Open_Web_App-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Interactive App"/>
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Public_Repos-48-2563eb?style=for-the-badge&logo=github" alt="Public Repos"/>
+  <img src="https://img.shields.io/badge/Contributions_Last_Year-407-0284c7?style=for-the-badge&logo=github" alt="Contributions"/>
+  <img src="https://img.shields.io/badge/Stars_Earned-5-eab308?style=for-the-badge&logo=github" alt="Stars"/>
+  <img src="https://img.shields.io/badge/Merged_PRs-9-22c55e?style=for-the-badge&logo=github" alt="Merged PRs"/>
+</div>
+
+
 
 ---
 
-## 📬 Let's Connect
+## Education & Certifications
 
-💼 Open for collaboration on full-stack projects and open source contributions!
+### Education
+- **Bachelor of Computer Applications (BCA)** | *Eternal University* | 2025 – 2027
 
-**Contact:** harshdeepkaur1208@gmail.com
+### Certifications
+- **Prompt Engineering for ChatGPT** — *Vanderbilt University (Coursera)*
+- **Git & GitHub / Version Control** — *Google & Meta (Coursera)*
+- **MongoDB University** — *Atlas Setup, CRUD Operations & Database Connections*
+
+---
+
+## Let's Connect
+
+Open for full-stack developer roles, internships, and open-source collaborations!
+
+- **Email:** [harshdeepkaur1208@gmail.com](mailto:harshdeepkaur1208@gmail.com)
+- **LinkedIn:** [harshdeep-kaur-58b5a4320](https://linkedin.com/in/harshdeep-kaur-58b5a4320)
+- **Portfolio:** [portfolio12h.netlify.app](https://portfolio12h.netlify.app)
+- **Location:** Assam, India
 
 ---
 
 <div align="center">
-  
-  **💻 "Code with purpose, deploy with impact."**
-  
-  Made with ❤️ | Powered by ☕
-  
+  <b>"Code with purpose, deploy with impact."</b><br/>
+  Harshdeep Kaur
 </div>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="100%" height="100%" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Roboto, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="waveGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#0284c7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect x="10" y="10" width="880" height="400" rx="20" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" filter="url(#softShadow)"/>
+
+  <g transform="translate(35, 45)">
+    <rect x="0" y="0" width="36" height="36" rx="10" fill="#0284c7"/>
+    <path d="M18 9c-5 0-9 4-9 9 0 4 2.5 7.5 6 8.7.4.1.6-.2.6-.4v-1.5c-2.5.5-3-1.2-3-1.2-.4-1-.1-1.3-.1-1.3-.8-.5.1-.5.1-.5.9.1 1.4 1 1.4 1 .8 1.4 2.1 1 2.6.8.1-.6.3-1 .6-1.2-2-.2-4.1-1-4.1-4.5 0-1 .3-1.8 1-2.5-.1-.2-.4-1.1.1-2.4 0 0 .8-.3 2.6 1a9 9 0 0 1 4.8 0c1.8-1.3 2.6-1 2.6-1 .5 1.3.2 2.2.1 2.4.7.7 1 1.5 1 2.5 0 3.5-2.1 4.3-4.1 4.5.4.3.7.9.7 1.9v2.8c0 .2.2.5.6.4A9 9 0 0 0 27 18c0-5-4-9-9-9z" fill="#ffffff" transform="translate(-9, -9) scale(1)"/>
+
+    <text x="48" y="22" font-size="20" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">407 contributions in the last year</text>
+    <text x="48" y="38" font-size="13" font-weight="600" fill="#94a3b8">Real GitHub Activity • @24-Harshdeep</text>
+  </g>
+
+  <g transform="translate(480, 42)">
+    <rect x="0" y="0" width="160" height="32" rx="8" fill="#1e293b"/>
+    <rect x="3" y="3" width="54" height="26" rx="6" fill="#0284c7"/>
+    <text x="30" y="20" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">1 Month</text>
+    <text x="85" y="20" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle">3 Months</text>
+    <text x="136" y="20" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle">1 Year</text>
+
+    <rect x="170" y="0" width="140" height="32" rx="8" fill="#1e293b"/>
+    <rect x="173" y="3" width="72" height="26" rx="6" fill="#0284c7"/>
+    <text x="209" y="20" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Waveform</text>
+    <text x="278" y="20" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle">Heatmap</text>
+  </g>
+
+  <rect x="35" y="100" width="830" height="235" rx="14" fill="#030712" stroke="#1e293b" stroke-width="1.2"/>
+
+  <line x1="35" y1="150" x2="865" y2="150" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="35" y1="200" x2="865" y2="200" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="35" y1="250" x2="865" y2="250" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="35" y1="300" x2="865" y2="300" stroke="#334155" stroke-width="1.5" stroke-dasharray="2 2"/>
+
+  <g transform="translate(35, 45)">
+    <path d="M 55.0 155.0 C 96.4 155.0, 137.8 155.0, 179.3 155.0 C 220.7 155.0, 262.1 155.0, 303.4 155.0 C 344.8 155.0, 386.2 155.0, 427.6 155.0 C 469.0 155.0, 510.3 155.0, 551.7 155.0 C 593.1 155.0, 634.5 155.0, 675.9 155.0 C 717.2 155.0, 758.6 155.0, 800.0 155.0 L 800.0 155.0 L 0 155.0 Z" fill="url(#waveGradient)" />
+    <path d="M 55 285 C 95 275, 120 250, 150 260 C 180 270, 200 215, 225 225 C 260 235, 280 120, 310 135 C 340 150, 360 290, 400 290 C 440 290, 460 190, 490 200 C 515 210, 540 245, 570 230 C 600 215, 635 275, 665 265 C 695 255, 715 210, 745 220 C 775 230, 815 285, 845 260" fill="none" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#neonGlow)"/>
+  </g>
+
+  <text x="35" y="365" font-size="12" font-weight="600" fill="#94a3b8">Viewing Past Month (30 Days)</text>
+  <text x="865" y="365" font-size="12" font-weight="600" fill="#94a3b8" text-anchor="end">Theme Color: Electric Blue | Baseline = 0 contributions</text>
+</svg>
