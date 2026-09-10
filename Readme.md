@@ -156,9 +156,10 @@ An AI-assisted resume evaluation tool designed to analyze resume structure and o
 - **Bachelor of Computer Applications (BCA)** — Eternal University (*2025–2027*)
 
 ### Professional Certifications
-- **Prompt Engineering for ChatGPT** — Vanderbilt University (Coursera)
-- **Git & GitHub / Version Control** — Google & Meta (Coursera)
-- **MongoDB University** — Atlas Setup, CRUD Operations & Database Connections
+- **Prompt Engineering for ChatGPT** — Vanderbilt University ([Verify Certificate](https://www.coursera.org/account/accomplishments/verify/XBMTKTPY0OW6))
+- **Introduction to Git and GitHub** — Google ([Verify Certificate](https://www.coursera.org/account/accomplishments/verify/D9E238813HKD))
+- **Version Control** — Meta ([Verify Certificate](https://www.coursera.org/account/accomplishments/verify/TW70H2NAMY2I))
+- **MongoDB University** — Atlas Setup, CRUD Operations & Database Connections ([Verify Certificate](https://learn.mongodb.com/c/uyYeQapKTumGzcozYK7lGQ))
 
 ---
 
