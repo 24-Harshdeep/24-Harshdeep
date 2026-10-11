@@ -118,7 +118,7 @@ My practical experience includes engineering responsive SaaS portal modules and 
 
 ---
 
-### 3. Resume Analyzer &mdash; AI Career Evaluation Platform
+### 3. CareerOs &mdash; AI Career Evaluation Platform
 > **Career Platform &bull; ATS Optimization &bull; Frontend Analytics**
 
 - **Problem:** Job applicants frequently struggle to identify ATS formatting discrepancies and keyword misalignments before submitting resumes to enterprise applicant tracking systems.
