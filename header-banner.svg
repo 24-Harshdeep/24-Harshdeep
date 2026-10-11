@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 200" width="100%" height="100%" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Roboto, sans-serif">
+  <defs>
+    <linearGradient id="headerBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a14"/>
+      <stop offset="50%" stop-color="#0a1224"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <linearGradient id="waveStrokeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="40%" stop-color="#38bdf8"/>
+      <stop offset="80%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <linearGradient id="waveFillGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <filter id="bannerGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <pattern id="headerGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes bannerWavePulse {
+      0% { stroke-opacity: 0.8; filter: drop-shadow(0 0 4px #38bdf8); }
+      50% { stroke-opacity: 1.0; filter: drop-shadow(0 0 10px #38bdf8); }
+      100% { stroke-opacity: 0.8; filter: drop-shadow(0 0 4px #38bdf8); }
+    }
+    .banner-wave-stroke {
+      animation: bannerWavePulse 3s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Banner Container -->
+  <rect x="5" y="5" width="940" height="190" rx="14" fill="url(#headerBgGrad)" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="5" y="5" width="940" height="190" rx="14" fill="url(#headerGrid)"/>
+
+  <!-- Subtle Ambient Circuit Motif (Top Right) -->
+  <g opacity="0.25" stroke="#38bdf8" stroke-width="0.8" fill="none">
+    <circle cx="840" cy="45" r="3" fill="#38bdf8"/>
+    <circle cx="890" cy="75" r="2" fill="#38bdf8"/>
+    <circle cx="790" cy="85" r="2" fill="#38bdf8"/>
+    <line x1="840" y1="45" x2="890" y2="75"/>
+    <line x1="840" y1="45" x2="790" y2="85"/>
+    <line x1="790" y1="85" x2="750" y2="85"/>
+  </g>
+
+  <!-- Animated Bottom Wave -->
+  <path d="M 5 155 Q 240 120, 475 155 T 945 155 L 945 195 L 5 195 Z" fill="url(#waveFillGrad)"/>
+  <path d="M 5 155 Q 240 120, 475 155 T 945 155" fill="none" stroke="url(#waveStrokeGrad)" stroke-width="2.5" class="banner-wave-stroke" filter="url(#bannerGlow)"/>
+  <path d="M 5 155 Q 240 120, 475 155 T 945 155" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="6 14" opacity="0.75">
+    <animate attributeName="stroke-dashoffset" from="0" to="-40" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Header Typography -->
+  <g transform="translate(50, 48)">
+    <text x="0" y="16" font-size="11" font-weight="800" fill="#0284c7" letter-spacing="2">DEVELOPER PORTFOLIO &amp; SHOWCASE</text>
+    <text x="0" y="56" font-size="38" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">Harshdeep Kaur</text>
+    <text x="0" y="82" font-size="15" font-weight="700" fill="#38bdf8" letter-spacing="0.3">Full Stack Developer | AI &amp; Agent Development</text>
+  </g>
+</svg>

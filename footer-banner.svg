@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 80" width="100%" height="100%" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Roboto, sans-serif">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a14"/>
+      <stop offset="100%" stop-color="#0a1224"/>
+    </linearGradient>
+    <linearGradient id="footerWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="5" y="5" width="940" height="70" rx="10" fill="url(#footerBg)" stroke="#1e293b" stroke-width="1.2"/>
+  <path d="M 5 45 Q 240 20, 475 45 T 945 45" fill="none" stroke="url(#footerWave)" stroke-width="2" stroke-dasharray="6 12">
+    <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+  <text x="475" y="55" font-size="11" font-weight="600" fill="#64748b" text-anchor="middle" letter-spacing="0.5">portfolio12h.netlify.app &#8226; Harshdeep Kaur</text>
+</svg>
