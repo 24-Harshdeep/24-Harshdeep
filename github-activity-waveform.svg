@@ -96,7 +96,7 @@
   <g transform="translate(35, 26)">
     <text x="0" y="12" font-size="10" font-weight="800" fill="#38bdf8" letter-spacing="1.5">REAL-TIME 13-MONTH ACTIVITY ANALYTICS</text>
     <text x="0" y="32" font-size="19" font-weight="800" fill="#f8fafc" letter-spacing="-0.4">407 Contributions across 13 Months</text>
-    <text x="0" y="48" font-size="12" font-weight="600" fill="#94a3b8">Synced from @24-Harshdeep &bull; Real-Time Weekly &amp; Monthly Metrics</text>
+    <text x="0" y="48" font-size="12" font-weight="600" fill="#94a3b8">Synced from @24-Harshdeep &#8226; Real-Time Weekly &amp; Monthly Metrics</text>
 
     <g transform="translate(440, 6)">
       <g class="interactive-btn">
@@ -166,7 +166,7 @@
       <circle cx="82.4" cy="236.4" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(142.4, 172.4)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-09-15 &bull; +2 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-09-15 &#8226; +2 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">ZaikaHub &amp; BCA Start</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Sep 2025: 5 Total Contributions</text>
       </g>
@@ -178,7 +178,7 @@
       <circle cx="157.2" cy="264.1" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(157.2, 200.10000000000002)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-10-17 &bull; +2 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-10-17 &#8226; +2 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">English &amp; Tech Coordination</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Oct 2025: 4 Total Contributions</text>
       </g>
@@ -190,7 +190,7 @@
       <circle cx="194.6" cy="265.0" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(194.6, 201.0)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-11-02 &bull; +4 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-11-02 &#8226; +4 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">Full-Stack &amp; MERN Sprints</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Nov 2025: 5 Total Contributions</text>
       </g>
@@ -202,7 +202,7 @@
       <circle cx="269.3" cy="252.1" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(269.3, 188.1)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-12-04 &bull; +3 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-12-04 &#8226; +3 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">API Architecture &amp; UI</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Dec 2025: 6 Total Contributions</text>
       </g>
@@ -214,7 +214,7 @@
       <circle cx="369.1" cy="240.1" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(369.1, 176.1)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-01-15 &bull; +15 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-01-15 &#8226; +15 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">Neximprove SaaS Kickoff</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Jan 2026: 31 Total Contributions</text>
       </g>
@@ -226,7 +226,7 @@
       <circle cx="468.8" cy="186.4" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(468.8, 122.4)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-02-27 &bull; +23 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-02-27 &#8226; +23 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">2FA Auth &amp; Broker Module</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Feb 2026: 44 Total Contributions</text>
       </g>
@@ -238,7 +238,7 @@
       <circle cx="481.2" cy="200.4" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(481.2, 136.4)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-03-04 &bull; +17 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-03-04 &#8226; +17 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">GSSoC 2026 Open Source</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Mar 2026: 21 Total Contributions</text>
       </g>
@@ -250,7 +250,7 @@
       <circle cx="593.4" cy="252.0" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(593.4, 188.0)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-04-21 &bull; +10 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-04-21 &#8226; +10 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">Smartly Labs AI · GitFix</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Apr 2026: 28 Total Contributions</text>
       </g>
@@ -262,7 +262,7 @@
       <circle cx="668.2" cy="124.9" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(668.2, 138.9)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-05-23 &bull; +51 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-05-23 &#8226; +51 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">Axemata High-Velocity Sprint</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">May 2026: 79 Total Contributions</text>
       </g>
@@ -274,7 +274,7 @@
       <circle cx="743.0" cy="230.2" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(743.0, 166.2)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-06-24 &bull; +20 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-06-24 &#8226; +20 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">CareerOs &amp; Admin Platform</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Jun 2026: 65 Total Contributions</text>
       </g>
@@ -286,7 +286,7 @@
       <circle cx="780.4" cy="234.5" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(780.4, 170.5)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-07-09 &bull; +22 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-07-09 &#8226; +22 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">Global Rank #1,493 Milestone</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Jul 2026: 60 Total Contributions</text>
       </g>
@@ -298,7 +298,7 @@
       <circle cx="855.1" cy="217.3" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(795.1, 153.3)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-08-10 &bull; +26 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-08-10 &#8226; +26 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">AI Agents &amp; Portfolio Release</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Aug 2026: 58 Total Contributions</text>
       </g>
@@ -310,7 +310,7 @@
       <circle cx="905.0" cy="225.8" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate(845.0, 161.8)">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-09-01 &bull; +5 Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-09-01 &#8226; +5 Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">Live Continuous Sync Active</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Sep 2026: 0 Total Contributions</text>
       </g>
@@ -336,7 +336,7 @@
   <g transform="translate(35, 345)">
     <circle cx="6" cy="6" r="6" fill="#10b981" opacity="0.2" class="beacon-ring"/>
     <circle cx="6" cy="6" r="3.5" fill="#10b981"/>
-    <text x="18" y="10" font-size="11.5" font-weight="600" fill="#94a3b8">Live Activity Sync Active &bull; Hover points for milestone inspection</text>
+    <text x="18" y="10" font-size="11.5" font-weight="600" fill="#94a3b8">Live Activity Sync Active &#8226; Hover points for milestone inspection</text>
 
     <a href="https://portfolio12h.netlify.app/" target="_blank">
       <text x="875" y="10" font-size="11.5" font-weight="700" fill="#38bdf8" text-anchor="end">Interactive Web Dashboard: portfolio12h.netlify.app</text>

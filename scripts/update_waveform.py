@@ -132,7 +132,7 @@ def main():
       <circle cx="{px}" cy="{py}" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
       <g class="tooltip-card" transform="translate({px + tx_offset}, {ty})">
         <rect x="-90" y="0" width="180" height="54" rx="8" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
-        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">{pdate} &bull; +{week_count} Commits (7d)</text>
+        <text x="0" y="16" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">{pdate} &#8226; +{week_count} Commits (7d)</text>
         <text x="0" y="32" font-size="10.5" font-weight="800" fill="#f8fafc" text-anchor="middle">{note}</text>
         <text x="0" y="46" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">{month_label}: {month_total} Total Contributions</text>
       </g>
@@ -245,7 +245,7 @@ def main():
   <g transform="translate(35, 26)">
     <text x="0" y="12" font-size="10" font-weight="800" fill="#38bdf8" letter-spacing="1.5">REAL-TIME 13-MONTH ACTIVITY ANALYTICS</text>
     <text x="0" y="32" font-size="19" font-weight="800" fill="#f8fafc" letter-spacing="-0.4">{total_contribs} Contributions across 13 Months</text>
-    <text x="0" y="48" font-size="12" font-weight="600" fill="#94a3b8">Synced from @{USERNAME} &bull; Real-Time Weekly &amp; Monthly Metrics</text>
+    <text x="0" y="48" font-size="12" font-weight="600" fill="#94a3b8">Synced from @{USERNAME} &#8226; Real-Time Weekly &amp; Monthly Metrics</text>
 
     <g transform="translate(440, 6)">
       <g class="interactive-btn">
@@ -317,7 +317,7 @@ def main():
   <g transform="translate(35, 345)">
     <circle cx="6" cy="6" r="6" fill="#10b981" opacity="0.2" class="beacon-ring"/>
     <circle cx="6" cy="6" r="3.5" fill="#10b981"/>
-    <text x="18" y="10" font-size="11.5" font-weight="600" fill="#94a3b8">Live Activity Sync Active &bull; Hover points for milestone inspection</text>
+    <text x="18" y="10" font-size="11.5" font-weight="600" fill="#94a3b8">Live Activity Sync Active &#8226; Hover points for milestone inspection</text>
 
     <a href="https://portfolio12h.netlify.app/" target="_blank">
       <text x="875" y="10" font-size="11.5" font-weight="700" fill="#38bdf8" text-anchor="end">Interactive Web Dashboard: portfolio12h.netlify.app</text>
