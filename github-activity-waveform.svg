@@ -1,64 +1,321 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="100%" height="100%" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Roboto, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 380" width="100%" height="100%" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Roboto, sans-serif">
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b0f19"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c17"/>
+      <stop offset="60%" stop-color="#0b1222"/>
+      <stop offset="100%" stop-color="#060912"/>
     </linearGradient>
 
-    <linearGradient id="waveGradient" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
-      <stop offset="60%" stop-color="#0284c7" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#030712" stop-opacity="0.0"/>
-    </linearGradient>
-
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <filter id="waveGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
 
-    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
     </filter>
+
+    <linearGradient id="waveAreaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="65%" stop-color="#0284c7" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <pattern id="subtleGrid" width="40" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.4"/>
+    </pattern>
+
+    <path id="waveEnergyMotionPath" d="M 45.0 249.0 C 51.2 249.0, 51.2 248.7, 57.5 248.7 C 63.7 248.7, 63.7 241.6, 69.9 241.6 C 76.2 241.6, 76.2 236.4, 82.4 236.4 C 88.7 236.4, 88.7 239.5, 94.9 239.5 C 101.1 239.5, 101.1 242.0, 107.3 242.0 C 113.5 242.0, 113.5 249.6, 119.8 249.6 C 126.0 249.6, 126.0 256.0, 132.2 256.0 C 138.4 256.0, 138.4 263.1, 144.7 263.1 C 150.9 263.1, 150.9 264.1, 157.2 264.1 C 163.4 264.1, 163.4 265.0, 169.6 265.0 C 175.8 265.0, 175.8 265.0, 182.1 265.0 C 188.3 265.0, 188.3 265.0, 194.6 265.0 C 200.8 265.0, 200.8 265.0, 207.0 265.0 C 213.2 265.0, 213.2 265.0, 219.5 265.0 C 225.8 265.0, 225.8 265.0, 232.0 265.0 C 238.2 265.0, 238.2 265.0, 244.4 265.0 C 250.6 265.0, 250.6 256.9, 256.9 256.9 C 263.1 256.9, 263.1 252.1, 269.3 252.1 C 275.6 252.1, 275.6 251.8, 281.8 251.8 C 288.1 251.8, 288.1 253.4, 294.3 253.4 C 300.5 253.4, 300.5 254.0, 306.7 254.0 C 312.9 254.0, 312.9 250.3, 319.2 250.3 C 325.4 250.3, 325.4 259.8, 331.7 259.8 C 337.9 259.8, 337.9 257.8, 344.1 257.8 C 350.4 257.8, 350.4 246.5, 356.6 246.5 C 362.9 246.5, 362.9 240.1, 369.1 240.1 C 375.3 240.1, 375.3 243.8, 381.5 243.8 C 387.8 243.8, 387.8 265.0, 394.0 265.0 C 400.2 265.0, 400.2 245.6, 406.4 245.6 C 412.6 245.6, 412.6 226.1, 418.9 226.1 C 425.1 226.1, 425.1 244.4, 431.4 244.4 C 437.6 244.4, 437.6 250.8, 443.8 250.8 C 450.1 250.8, 450.1 225.3, 456.3 225.3 C 462.6 225.3, 462.6 186.4, 468.8 186.4 C 475.0 186.4, 475.0 200.4, 481.2 200.4 C 487.4 200.4, 487.4 240.6, 493.7 240.6 C 499.9 240.6, 499.9 247.5, 506.2 247.5 C 512.4 247.5, 512.4 250.2, 518.6 250.2 C 524.9 250.2, 524.9 260.1, 531.1 260.1 C 537.4 260.1, 537.4 252.3, 543.6 252.3 C 549.8 252.3, 549.8 261.7, 556.0 261.7 C 562.2 261.7, 562.2 265.0, 568.5 265.0 C 574.7 265.0, 574.7 263.5, 580.9 263.5 C 587.1 263.5, 587.1 252.0, 593.4 252.0 C 599.6 252.0, 599.6 265.0, 605.9 265.0 C 612.1 265.0, 612.1 265.0, 618.3 265.0 C 624.5 265.0, 624.5 265.0, 630.8 265.0 C 637.0 265.0, 637.0 265.0, 643.3 265.0 C 649.5 265.0, 649.5 194.4, 655.7 194.4 C 662.0 194.4, 662.0 124.9, 668.2 124.9 C 674.5 124.9, 674.5 235.8, 680.7 235.8 C 686.9 235.8, 686.9 232.6, 693.1 232.6 C 699.4 232.6, 699.4 222.4, 705.6 222.4 C 711.8 222.4, 711.8 252.3, 718.0 252.3 C 724.2 252.3, 724.2 226.3, 730.5 226.3 C 736.8 226.3, 736.8 230.2, 743.0 230.2 C 749.2 230.2, 749.2 242.2, 755.4 242.2 C 761.6 242.2, 761.6 225.9, 767.9 225.9 C 774.1 225.9, 774.1 234.5, 780.4 234.5 C 786.6 234.5, 786.6 238.1, 792.8 238.1 C 799.0 238.1, 799.0 249.0, 805.3 249.0 C 811.5 249.0, 811.5 246.8, 817.8 246.8 C 824.0 246.8, 824.0 214.3, 830.2 214.3 C 836.5 214.3, 836.5 236.0, 842.7 236.0 C 848.9 236.0, 848.9 217.3, 855.1 217.3 C 861.4 217.3, 861.4 239.2, 867.6 239.2 C 873.9 239.2, 873.9 195.0, 880.1 195.0 C 886.3 195.0, 886.3 230.7, 892.5 230.7 C 898.8 230.7, 898.8 225.8, 905.0 225.8" fill="none"/>
   </defs>
 
-  <rect x="10" y="10" width="880" height="400" rx="20" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" filter="url(#softShadow)"/>
+  <style>
+    @keyframes liveBeacon {
+      0% { r: 3.5px; opacity: 1; }
+      50% { r: 7px; opacity: 0.3; }
+      100% { r: 3.5px; opacity: 1; }
+    }
+    @keyframes wavePulse {
+      0% { stroke-opacity: 0.85; filter: drop-shadow(0 0 4px #38bdf8); }
+      50% { stroke-opacity: 1.0; filter: drop-shadow(0 0 8px #38bdf8); }
+      100% { stroke-opacity: 0.85; filter: drop-shadow(0 0 4px #38bdf8); }
+    }
+    .beacon-ring {
+      animation: liveBeacon 2s ease-in-out infinite;
+    }
+    .animated-wave-line {
+      animation: wavePulse 3s ease-in-out infinite;
+    }
+    .interactive-point {
+      cursor: pointer;
+    }
+    .interactive-point .guide-line {
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
+    }
+    .interactive-point .node-dot {
+      transition: transform 0.2s ease-in-out, r 0.2s ease-in-out, fill 0.2s ease-in-out;
+    }
+    .interactive-point .tooltip-card {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1), transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      transform-origin: center bottom;
+    }
+    .interactive-point:hover .guide-line,
+    .interactive-point:focus .guide-line {
+      opacity: 0.9;
+    }
+    .interactive-point:hover .node-dot,
+    .interactive-point:focus .node-dot {
+      r: 6.5px;
+      fill: #ffffff;
+      filter: drop-shadow(0 0 6px #38bdf8);
+    }
+    .interactive-point:hover .tooltip-card,
+    .interactive-point:focus .tooltip-card {
+      opacity: 1;
+    }
+    .interactive-btn {
+      cursor: pointer;
+      transition: fill 0.2s ease, stroke 0.2s ease;
+    }
+    .interactive-btn:hover rect {
+      fill: #0284c7;
+      stroke: #38bdf8;
+    }
+    .interactive-btn:hover text {
+      fill: #ffffff;
+    }
+  </style>
 
-  <g transform="translate(35, 45)">
-    <rect x="0" y="0" width="36" height="36" rx="10" fill="#0284c7"/>
-    <path d="M18 9c-5 0-9 4-9 9 0 4 2.5 7.5 6 8.7.4.1.6-.2.6-.4v-1.5c-2.5.5-3-1.2-3-1.2-.4-1-.1-1.3-.1-1.3-.8-.5.1-.5.1-.5.9.1 1.4 1 1.4 1 .8 1.4 2.1 1 2.6.8.1-.6.3-1 .6-1.2-2-.2-4.1-1-4.1-4.5 0-1 .3-1.8 1-2.5-.1-.2-.4-1.1.1-2.4 0 0 .8-.3 2.6 1a9 9 0 0 1 4.8 0c1.8-1.3 2.6-1 2.6-1 .5 1.3.2 2.2.1 2.4.7.7 1 1.5 1 2.5 0 3.5-2.1 4.3-4.1 4.5.4.3.7.9.7 1.9v2.8c0 .2.2.5.6.4A9 9 0 0 0 27 18c0-5-4-9-9-9z" fill="#ffffff" transform="translate(-9, -9) scale(1)"/>
+  <rect x="5" y="5" width="940" height="370" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.2"/>
 
-    <text x="48" y="22" font-size="20" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">407 contributions in the last year</text>
-    <text x="48" y="38" font-size="13" font-weight="600" fill="#94a3b8">Real GitHub Activity • @24-Harshdeep</text>
+  <g transform="translate(35, 26)">
+    <text x="0" y="12" font-size="10" font-weight="800" fill="#38bdf8" letter-spacing="1.5">REAL-TIME ACTIVITY METRICS</text>
+    <text x="0" y="32" font-size="19" font-weight="800" fill="#f8fafc" letter-spacing="-0.4">407 Contributions in Past Year</text>
+    <text x="0" y="48" font-size="12" font-weight="600" fill="#94a3b8">Synced from @24-Harshdeep on GitHub</text>
+
+    <g transform="translate(440, 6)">
+      <g class="interactive-btn">
+        <rect x="0" y="0" width="86" height="36" rx="6" fill="#0c1322" stroke="#1e293b" stroke-width="1"/>
+        <text x="43" y="15" font-size="9" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">REPOS</text>
+        <text x="43" y="30" font-size="13" font-weight="800" fill="#38bdf8" text-anchor="middle">48</text>
+      </g>
+
+      <g class="interactive-btn">
+        <rect x="94" y="0" width="86" height="36" rx="6" fill="#0c1322" stroke="#1e293b" stroke-width="1"/>
+        <text x="137" y="15" font-size="9" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">COMMITS</text>
+        <text x="137" y="30" font-size="13" font-weight="800" fill="#38bdf8" text-anchor="middle">407</text>
+      </g>
+
+      <g class="interactive-btn">
+        <rect x="188" y="0" width="86" height="36" rx="6" fill="#0c1322" stroke="#1e293b" stroke-width="1"/>
+        <text x="231" y="15" font-size="9" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">STARS</text>
+        <text x="231" y="30" font-size="13" font-weight="800" fill="#f59e0b" text-anchor="middle">5</text>
+      </g>
+
+      <g class="interactive-btn">
+        <rect x="282" y="0" width="86" height="36" rx="6" fill="#0c1322" stroke="#1e293b" stroke-width="1"/>
+        <text x="325" y="15" font-size="9" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">MERGED PRS</text>
+        <text x="325" y="30" font-size="13" font-weight="800" fill="#10b981" text-anchor="middle">4</text>
+      </g>
+
+      <g>
+        <rect x="376" y="0" width="86" height="36" rx="6" fill="#0284c7" stroke="#38bdf8" stroke-width="1"/>
+        <text x="419" y="15" font-size="9" font-weight="800" fill="#e0f2fe" text-anchor="middle" letter-spacing="0.5">VIEW</text>
+        <text x="419" y="29" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">WAVEFORM</text>
+      </g>
+    </g>
   </g>
 
-  <g transform="translate(480, 42)">
-    <rect x="0" y="0" width="160" height="32" rx="8" fill="#1e293b"/>
-    <rect x="3" y="3" width="54" height="26" rx="6" fill="#0284c7"/>
-    <text x="30" y="20" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">1 Month</text>
-    <text x="85" y="20" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle">3 Months</text>
-    <text x="136" y="20" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle">1 Year</text>
+  <rect x="35" y="92" width="880" height="225" rx="10" fill="#050811" stroke="#1e293b" stroke-width="1"/>
+  <rect x="35" y="92" width="880" height="225" rx="10" fill="url(#subtleGrid)"/>
 
-    <rect x="170" y="0" width="140" height="32" rx="8" fill="#1e293b"/>
-    <rect x="173" y="3" width="72" height="26" rx="6" fill="#0284c7"/>
-    <text x="209" y="20" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Waveform</text>
-    <text x="278" y="20" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle">Heatmap</text>
+  <line y1="92" y2="317" stroke="#38bdf8" stroke-width="1.8" opacity="0.45" filter="url(#waveGlow)">
+    <animate attributeName="x1" values="45;905;45" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="45;905;45" dur="6s" repeatCount="indefinite"/>
+  </line>
+
+  <line x1="35" y1="140" x2="915" y2="140" stroke="#1e293b" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="35" y1="185" x2="915" y2="185" stroke="#1e293b" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="35" y1="230" x2="915" y2="230" stroke="#1e293b" stroke-width="0.8" stroke-dasharray="3 3"/>
+
+  <line x1="35" y1="270.0" x2="915" y2="270.0" stroke="#334155" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <path d="M 45.0 249.0 C 51.2 249.0, 51.2 248.7, 57.5 248.7 C 63.7 248.7, 63.7 241.6, 69.9 241.6 C 76.2 241.6, 76.2 236.4, 82.4 236.4 C 88.7 236.4, 88.7 239.5, 94.9 239.5 C 101.1 239.5, 101.1 242.0, 107.3 242.0 C 113.5 242.0, 113.5 249.6, 119.8 249.6 C 126.0 249.6, 126.0 256.0, 132.2 256.0 C 138.4 256.0, 138.4 263.1, 144.7 263.1 C 150.9 263.1, 150.9 264.1, 157.2 264.1 C 163.4 264.1, 163.4 265.0, 169.6 265.0 C 175.8 265.0, 175.8 265.0, 182.1 265.0 C 188.3 265.0, 188.3 265.0, 194.6 265.0 C 200.8 265.0, 200.8 265.0, 207.0 265.0 C 213.2 265.0, 213.2 265.0, 219.5 265.0 C 225.8 265.0, 225.8 265.0, 232.0 265.0 C 238.2 265.0, 238.2 265.0, 244.4 265.0 C 250.6 265.0, 250.6 256.9, 256.9 256.9 C 263.1 256.9, 263.1 252.1, 269.3 252.1 C 275.6 252.1, 275.6 251.8, 281.8 251.8 C 288.1 251.8, 288.1 253.4, 294.3 253.4 C 300.5 253.4, 300.5 254.0, 306.7 254.0 C 312.9 254.0, 312.9 250.3, 319.2 250.3 C 325.4 250.3, 325.4 259.8, 331.7 259.8 C 337.9 259.8, 337.9 257.8, 344.1 257.8 C 350.4 257.8, 350.4 246.5, 356.6 246.5 C 362.9 246.5, 362.9 240.1, 369.1 240.1 C 375.3 240.1, 375.3 243.8, 381.5 243.8 C 387.8 243.8, 387.8 265.0, 394.0 265.0 C 400.2 265.0, 400.2 245.6, 406.4 245.6 C 412.6 245.6, 412.6 226.1, 418.9 226.1 C 425.1 226.1, 425.1 244.4, 431.4 244.4 C 437.6 244.4, 437.6 250.8, 443.8 250.8 C 450.1 250.8, 450.1 225.3, 456.3 225.3 C 462.6 225.3, 462.6 186.4, 468.8 186.4 C 475.0 186.4, 475.0 200.4, 481.2 200.4 C 487.4 200.4, 487.4 240.6, 493.7 240.6 C 499.9 240.6, 499.9 247.5, 506.2 247.5 C 512.4 247.5, 512.4 250.2, 518.6 250.2 C 524.9 250.2, 524.9 260.1, 531.1 260.1 C 537.4 260.1, 537.4 252.3, 543.6 252.3 C 549.8 252.3, 549.8 261.7, 556.0 261.7 C 562.2 261.7, 562.2 265.0, 568.5 265.0 C 574.7 265.0, 574.7 263.5, 580.9 263.5 C 587.1 263.5, 587.1 252.0, 593.4 252.0 C 599.6 252.0, 599.6 265.0, 605.9 265.0 C 612.1 265.0, 612.1 265.0, 618.3 265.0 C 624.5 265.0, 624.5 265.0, 630.8 265.0 C 637.0 265.0, 637.0 265.0, 643.3 265.0 C 649.5 265.0, 649.5 194.4, 655.7 194.4 C 662.0 194.4, 662.0 124.9, 668.2 124.9 C 674.5 124.9, 674.5 235.8, 680.7 235.8 C 686.9 235.8, 686.9 232.6, 693.1 232.6 C 699.4 232.6, 699.4 222.4, 705.6 222.4 C 711.8 222.4, 711.8 252.3, 718.0 252.3 C 724.2 252.3, 724.2 226.3, 730.5 226.3 C 736.8 226.3, 736.8 230.2, 743.0 230.2 C 749.2 230.2, 749.2 242.2, 755.4 242.2 C 761.6 242.2, 761.6 225.9, 767.9 225.9 C 774.1 225.9, 774.1 234.5, 780.4 234.5 C 786.6 234.5, 786.6 238.1, 792.8 238.1 C 799.0 238.1, 799.0 249.0, 805.3 249.0 C 811.5 249.0, 811.5 246.8, 817.8 246.8 C 824.0 246.8, 824.0 214.3, 830.2 214.3 C 836.5 214.3, 836.5 236.0, 842.7 236.0 C 848.9 236.0, 848.9 217.3, 855.1 217.3 C 861.4 217.3, 861.4 239.2, 867.6 239.2 C 873.9 239.2, 873.9 195.0, 880.1 195.0 C 886.3 195.0, 886.3 230.7, 892.5 230.7 C 898.8 230.7, 898.8 225.8, 905.0 225.8 L 905.0 270.0 L 45.0 270.0 Z" fill="url(#waveAreaGrad)"/>
+
+  <path class="animated-wave-line" d="M 45.0 249.0 C 51.2 249.0, 51.2 248.7, 57.5 248.7 C 63.7 248.7, 63.7 241.6, 69.9 241.6 C 76.2 241.6, 76.2 236.4, 82.4 236.4 C 88.7 236.4, 88.7 239.5, 94.9 239.5 C 101.1 239.5, 101.1 242.0, 107.3 242.0 C 113.5 242.0, 113.5 249.6, 119.8 249.6 C 126.0 249.6, 126.0 256.0, 132.2 256.0 C 138.4 256.0, 138.4 263.1, 144.7 263.1 C 150.9 263.1, 150.9 264.1, 157.2 264.1 C 163.4 264.1, 163.4 265.0, 169.6 265.0 C 175.8 265.0, 175.8 265.0, 182.1 265.0 C 188.3 265.0, 188.3 265.0, 194.6 265.0 C 200.8 265.0, 200.8 265.0, 207.0 265.0 C 213.2 265.0, 213.2 265.0, 219.5 265.0 C 225.8 265.0, 225.8 265.0, 232.0 265.0 C 238.2 265.0, 238.2 265.0, 244.4 265.0 C 250.6 265.0, 250.6 256.9, 256.9 256.9 C 263.1 256.9, 263.1 252.1, 269.3 252.1 C 275.6 252.1, 275.6 251.8, 281.8 251.8 C 288.1 251.8, 288.1 253.4, 294.3 253.4 C 300.5 253.4, 300.5 254.0, 306.7 254.0 C 312.9 254.0, 312.9 250.3, 319.2 250.3 C 325.4 250.3, 325.4 259.8, 331.7 259.8 C 337.9 259.8, 337.9 257.8, 344.1 257.8 C 350.4 257.8, 350.4 246.5, 356.6 246.5 C 362.9 246.5, 362.9 240.1, 369.1 240.1 C 375.3 240.1, 375.3 243.8, 381.5 243.8 C 387.8 243.8, 387.8 265.0, 394.0 265.0 C 400.2 265.0, 400.2 245.6, 406.4 245.6 C 412.6 245.6, 412.6 226.1, 418.9 226.1 C 425.1 226.1, 425.1 244.4, 431.4 244.4 C 437.6 244.4, 437.6 250.8, 443.8 250.8 C 450.1 250.8, 450.1 225.3, 456.3 225.3 C 462.6 225.3, 462.6 186.4, 468.8 186.4 C 475.0 186.4, 475.0 200.4, 481.2 200.4 C 487.4 200.4, 487.4 240.6, 493.7 240.6 C 499.9 240.6, 499.9 247.5, 506.2 247.5 C 512.4 247.5, 512.4 250.2, 518.6 250.2 C 524.9 250.2, 524.9 260.1, 531.1 260.1 C 537.4 260.1, 537.4 252.3, 543.6 252.3 C 549.8 252.3, 549.8 261.7, 556.0 261.7 C 562.2 261.7, 562.2 265.0, 568.5 265.0 C 574.7 265.0, 574.7 263.5, 580.9 263.5 C 587.1 263.5, 587.1 252.0, 593.4 252.0 C 599.6 252.0, 599.6 265.0, 605.9 265.0 C 612.1 265.0, 612.1 265.0, 618.3 265.0 C 624.5 265.0, 624.5 265.0, 630.8 265.0 C 637.0 265.0, 637.0 265.0, 643.3 265.0 C 649.5 265.0, 649.5 194.4, 655.7 194.4 C 662.0 194.4, 662.0 124.9, 668.2 124.9 C 674.5 124.9, 674.5 235.8, 680.7 235.8 C 686.9 235.8, 686.9 232.6, 693.1 232.6 C 699.4 232.6, 699.4 222.4, 705.6 222.4 C 711.8 222.4, 711.8 252.3, 718.0 252.3 C 724.2 252.3, 724.2 226.3, 730.5 226.3 C 736.8 226.3, 736.8 230.2, 743.0 230.2 C 749.2 230.2, 749.2 242.2, 755.4 242.2 C 761.6 242.2, 761.6 225.9, 767.9 225.9 C 774.1 225.9, 774.1 234.5, 780.4 234.5 C 786.6 234.5, 786.6 238.1, 792.8 238.1 C 799.0 238.1, 799.0 249.0, 805.3 249.0 C 811.5 249.0, 811.5 246.8, 817.8 246.8 C 824.0 246.8, 824.0 214.3, 830.2 214.3 C 836.5 214.3, 836.5 236.0, 842.7 236.0 C 848.9 236.0, 848.9 217.3, 855.1 217.3 C 861.4 217.3, 861.4 239.2, 867.6 239.2 C 873.9 239.2, 873.9 195.0, 880.1 195.0 C 886.3 195.0, 886.3 230.7, 892.5 230.7 C 898.8 230.7, 898.8 225.8, 905.0 225.8" fill="none" stroke="#38bdf8" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" filter="url(#waveGlow)"/>
+
+  <path d="M 45.0 249.0 C 51.2 249.0, 51.2 248.7, 57.5 248.7 C 63.7 248.7, 63.7 241.6, 69.9 241.6 C 76.2 241.6, 76.2 236.4, 82.4 236.4 C 88.7 236.4, 88.7 239.5, 94.9 239.5 C 101.1 239.5, 101.1 242.0, 107.3 242.0 C 113.5 242.0, 113.5 249.6, 119.8 249.6 C 126.0 249.6, 126.0 256.0, 132.2 256.0 C 138.4 256.0, 138.4 263.1, 144.7 263.1 C 150.9 263.1, 150.9 264.1, 157.2 264.1 C 163.4 264.1, 163.4 265.0, 169.6 265.0 C 175.8 265.0, 175.8 265.0, 182.1 265.0 C 188.3 265.0, 188.3 265.0, 194.6 265.0 C 200.8 265.0, 200.8 265.0, 207.0 265.0 C 213.2 265.0, 213.2 265.0, 219.5 265.0 C 225.8 265.0, 225.8 265.0, 232.0 265.0 C 238.2 265.0, 238.2 265.0, 244.4 265.0 C 250.6 265.0, 250.6 256.9, 256.9 256.9 C 263.1 256.9, 263.1 252.1, 269.3 252.1 C 275.6 252.1, 275.6 251.8, 281.8 251.8 C 288.1 251.8, 288.1 253.4, 294.3 253.4 C 300.5 253.4, 300.5 254.0, 306.7 254.0 C 312.9 254.0, 312.9 250.3, 319.2 250.3 C 325.4 250.3, 325.4 259.8, 331.7 259.8 C 337.9 259.8, 337.9 257.8, 344.1 257.8 C 350.4 257.8, 350.4 246.5, 356.6 246.5 C 362.9 246.5, 362.9 240.1, 369.1 240.1 C 375.3 240.1, 375.3 243.8, 381.5 243.8 C 387.8 243.8, 387.8 265.0, 394.0 265.0 C 400.2 265.0, 400.2 245.6, 406.4 245.6 C 412.6 245.6, 412.6 226.1, 418.9 226.1 C 425.1 226.1, 425.1 244.4, 431.4 244.4 C 437.6 244.4, 437.6 250.8, 443.8 250.8 C 450.1 250.8, 450.1 225.3, 456.3 225.3 C 462.6 225.3, 462.6 186.4, 468.8 186.4 C 475.0 186.4, 475.0 200.4, 481.2 200.4 C 487.4 200.4, 487.4 240.6, 493.7 240.6 C 499.9 240.6, 499.9 247.5, 506.2 247.5 C 512.4 247.5, 512.4 250.2, 518.6 250.2 C 524.9 250.2, 524.9 260.1, 531.1 260.1 C 537.4 260.1, 537.4 252.3, 543.6 252.3 C 549.8 252.3, 549.8 261.7, 556.0 261.7 C 562.2 261.7, 562.2 265.0, 568.5 265.0 C 574.7 265.0, 574.7 263.5, 580.9 263.5 C 587.1 263.5, 587.1 252.0, 593.4 252.0 C 599.6 252.0, 599.6 265.0, 605.9 265.0 C 612.1 265.0, 612.1 265.0, 618.3 265.0 C 624.5 265.0, 624.5 265.0, 630.8 265.0 C 637.0 265.0, 637.0 265.0, 643.3 265.0 C 649.5 265.0, 649.5 194.4, 655.7 194.4 C 662.0 194.4, 662.0 124.9, 668.2 124.9 C 674.5 124.9, 674.5 235.8, 680.7 235.8 C 686.9 235.8, 686.9 232.6, 693.1 232.6 C 699.4 232.6, 699.4 222.4, 705.6 222.4 C 711.8 222.4, 711.8 252.3, 718.0 252.3 C 724.2 252.3, 724.2 226.3, 730.5 226.3 C 736.8 226.3, 736.8 230.2, 743.0 230.2 C 749.2 230.2, 749.2 242.2, 755.4 242.2 C 761.6 242.2, 761.6 225.9, 767.9 225.9 C 774.1 225.9, 774.1 234.5, 780.4 234.5 C 786.6 234.5, 786.6 238.1, 792.8 238.1 C 799.0 238.1, 799.0 249.0, 805.3 249.0 C 811.5 249.0, 811.5 246.8, 817.8 246.8 C 824.0 246.8, 824.0 214.3, 830.2 214.3 C 836.5 214.3, 836.5 236.0, 842.7 236.0 C 848.9 236.0, 848.9 217.3, 855.1 217.3 C 861.4 217.3, 861.4 239.2, 867.6 239.2 C 873.9 239.2, 873.9 195.0, 880.1 195.0 C 886.3 195.0, 886.3 230.7, 892.5 230.7 C 898.8 230.7, 898.8 225.8, 905.0 225.8" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="6 18" opacity="0.75">
+    <animate attributeName="stroke-dashoffset" from="0" to="-48" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+
+  <circle r="4.5" fill="#ffffff" filter="url(#waveGlow)">
+    <animateMotion dur="5.5s" repeatCount="indefinite">
+      <mpath href="#waveEnergyMotionPath"/>
+    </animateMotion>
+  </circle>
+
+  
+    <g class="interactive-point" tabindex="0">
+      <circle cx="82.4" cy="236.4" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="82.4" y1="236.4" x2="82.4" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="82.4" cy="236.4" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(132.4, 188.4)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-09-15</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">BCA Foundation · ZaikaHub</text>
+      </g>
+    </g>
+
+    <g class="interactive-point" tabindex="0">
+      <circle cx="157.2" cy="264.1" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="157.2" y1="264.1" x2="157.2" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="157.2" cy="264.1" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(157.2, 216.10000000000002)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-10-17</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">NavGurukul Facilitation</text>
+      </g>
+    </g>
+
+    <g class="interactive-point" tabindex="0">
+      <circle cx="232.0" cy="265.0" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="232.0" y1="265.0" x2="232.0" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="232.0" cy="265.0" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(232.0, 217.0)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-11-18</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">MERN API Architecture</text>
+      </g>
+    </g>
+
+    <g class="interactive-point" tabindex="0">
+      <circle cx="306.7" cy="254.0" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="306.7" y1="254.0" x2="306.7" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="306.7" cy="254.0" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(306.7, 206.0)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2025-12-20</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">Neximprove SaaS Kickoff</text>
+      </g>
+    </g>
+
+    <g class="interactive-point" tabindex="0">
+      <circle cx="381.5" cy="243.8" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="381.5" y1="243.8" x2="381.5" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="381.5" cy="243.8" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(381.5, 195.8)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-01-21</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">2FA Auth &amp; Broker Portal</text>
+      </g>
+    </g>
+
+    <g class="interactive-point" tabindex="0">
+      <circle cx="456.3" cy="225.3" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="456.3" y1="225.3" x2="456.3" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="456.3" cy="225.3" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(456.3, 177.3)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-02-22</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">Learning Portal &amp; Sprints</text>
+      </g>
+    </g>
+
+    <g class="interactive-point" tabindex="0">
+      <circle cx="531.1" cy="260.1" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="531.1" y1="260.1" x2="531.1" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="531.1" cy="260.1" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(531.1, 212.10000000000002)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-03-25</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">GSSoC 2026 Contributor</text>
+      </g>
+    </g>
+
+    <g class="interactive-point" tabindex="0">
+      <circle cx="605.9" cy="265.0" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="605.9" y1="265.0" x2="605.9" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="605.9" cy="265.0" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(605.9, 217.0)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-04-26</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">Smartly Labs AI Track · GitFix</text>
+      </g>
+    </g>
+
+    <g class="interactive-point" tabindex="0">
+      <circle cx="680.7" cy="235.8" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="680.7" y1="235.8" x2="680.7" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="680.7" cy="235.8" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(680.7, 187.8)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-05-28</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">Axemata E-Commerce Arch</text>
+      </g>
+    </g>
+
+    <g class="interactive-point" tabindex="0">
+      <circle cx="755.4" cy="242.2" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="755.4" y1="242.2" x2="755.4" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="755.4" cy="242.2" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(755.4, 194.2)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-06-29</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">Admin Portal &amp; REST APIs</text>
+      </g>
+    </g>
+
+    <g class="interactive-point" tabindex="0">
+      <circle cx="830.2" cy="214.3" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="830.2" y1="214.3" x2="830.2" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="830.2" cy="214.3" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(780.2, 166.3)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-07-31</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">Global Rank #1,493 Milestone</text>
+      </g>
+    </g>
+
+    <g class="interactive-point" tabindex="0">
+      <circle cx="892.5" cy="230.7" r="16" fill="transparent" class="hover-zone"/>
+      <line x1="892.5" y1="230.7" x2="892.5" y2="270.0" class="guide-line" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle cx="892.5" cy="230.7" r="4.5" class="node-dot" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+      <g class="tooltip-card" transform="translate(842.5, 182.7)">
+        <rect x="-75" y="0" width="150" height="40" rx="6" fill="#0d1527" stroke="#38bdf8" stroke-width="1.2" filter="url(#cardShadow)"/>
+        <text x="0" y="15" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">2026-08-26</text>
+        <text x="0" y="30" font-size="10.5" font-weight="600" fill="#f8fafc" text-anchor="middle">Active Portfolio &amp; AI Sprints</text>
+      </g>
+    </g>
+
+  <g>
+    <text x="45.0" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">OCT</text>
+    <text x="116.7" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">NOV</text>
+    <text x="188.3" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">DEC</text>
+    <text x="260.0" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">JAN</text>
+    <text x="331.7" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">FEB</text>
+    <text x="403.3" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">MAR</text>
+    <text x="475.0" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">APR</text>
+    <text x="546.7" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">MAY</text>
+    <text x="618.3" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">JUN</text>
+    <text x="690.0" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">JUL</text>
+    <text x="761.7" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">AUG</text>
+    <text x="833.3" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">SEP</text>
+    <text x="905.0" y="302" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="0.5">OCT</text>
+    
   </g>
 
-  <rect x="35" y="100" width="830" height="235" rx="14" fill="#030712" stroke="#1e293b" stroke-width="1.2"/>
+  <g transform="translate(35, 345)">
+    <circle cx="6" cy="6" r="6" fill="#10b981" opacity="0.2" class="beacon-ring"/>
+    <circle cx="6" cy="6" r="3.5" fill="#10b981"/>
+    <text x="18" y="10" font-size="11.5" font-weight="600" fill="#94a3b8">Live Activity Sync Active — Hover points for milestone inspection</text>
 
-  <line x1="35" y1="150" x2="865" y2="150" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4"/>
-  <line x1="35" y1="200" x2="865" y2="200" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4"/>
-  <line x1="35" y1="250" x2="865" y2="250" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4"/>
-  <line x1="35" y1="300" x2="865" y2="300" stroke="#334155" stroke-width="1.5" stroke-dasharray="2 2"/>
-
-  <g transform="translate(35, 45)">
-    <path d="M 55.0 155.0 C 96.4 155.0, 137.8 155.0, 179.3 155.0 C 220.7 155.0, 262.1 155.0, 303.4 155.0 C 344.8 155.0, 386.2 155.0, 427.6 155.0 C 469.0 155.0, 510.3 155.0, 551.7 155.0 C 593.1 155.0, 634.5 155.0, 675.9 155.0 C 717.2 155.0, 758.6 155.0, 800.0 155.0 L 800.0 155.0 L 0 155.0 Z" fill="url(#waveGradient)" />
-    <path d="M 55 285 C 95 275, 120 250, 150 260 C 180 270, 200 215, 225 225 C 260 235, 280 120, 310 135 C 340 150, 360 290, 400 290 C 440 290, 460 190, 490 200 C 515 210, 540 245, 570 230 C 600 215, 635 275, 665 265 C 695 255, 715 210, 745 220 C 775 230, 815 285, 845 260" fill="none" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#neonGlow)"/>
+    <a href="https://portfolio12h.netlify.app/" target="_blank">
+      <text x="875" y="10" font-size="11.5" font-weight="700" fill="#38bdf8" text-anchor="end">Interactive Web Dashboard: portfolio12h.netlify.app</text>
+    </a>
   </g>
-
-  <text x="35" y="365" font-size="12" font-weight="600" fill="#94a3b8">Viewing Past Month (30 Days)</text>
-  <text x="865" y="365" font-size="12" font-weight="600" fill="#94a3b8" text-anchor="end">Theme Color: Electric Blue | Baseline = 0 contributions</text>
 </svg>

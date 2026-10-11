@@ -1,178 +1,129 @@
-# Hi, I'm Harshdeep Kaur
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0284c7,38bdf8&height=210&section=header&text=Harshdeep%20Kaur&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Developer%20|%20AI%20Engineer&descSize=16&descAlignY=55" width="100%"/>
+</div>
 
-### Full-Stack Developer | MERN Stack | Open Source Contributor
+<div align="center">
 
-I am a Full-Stack Developer specializing in building scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) and TypeScript. With 6+ months of frontend internship experience and active open-source contributions in GSSoC 2026, I focus on crafting responsive user interfaces, robust REST APIs, and seamless client-server integrations.
-
-<div align="left">
-
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/harshdeep-kaur-58b5a4320)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio12h.netlify.app/)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshdeepkaur1208@gmail.com)
+  [![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-0284c7?style=flat-square)](https://portfolio12h.netlify.app/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square)](https://linkedin.com/in/harshdeep-kaur-58b5a4320)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square)](mailto:harshdeepkaur1208@gmail.com)
+  [![GSSoC Rank](https://img.shields.io/badge/GSSoC_Rank-1493-FF6B6B?style=flat-square)](https://gssoc.girlscript.org/profile/6cfd5893-9684-4568-869b-b2583dac461f)
+  [![Profile Views](https://komarev.com/ghpvc/?username=24-Harshdeep&color=0284c7&style=flat-square&label=PROFILE+VIEWS)](https://github.com/24-Harshdeep)
 
 </div>
 
 ---
 
-## About Me
-
-- **Location:** Assam, India
-- **Education:** Bachelor of Computer Applications (BCA), Eternal University (2025–2027)
-- **Experience:** 6+ months of software development internship experience (Axemata Modas & Neximprove)
-- **Open Source:** Active Contributor in GirlScript Summer of Code (GSSoC) 2026
-- **Core Focus:** Building high-performance web products, integrating RESTful APIs, and developing AI-powered features.
-
----
-
-## Currently Working On
-
-- Developing production-ready MERN stack applications with **React.js, Node.js, Express.js**, and **MongoDB**.
-- Enhancing open-source repositories in **GSSoC 2026** with frontend optimizations and internationalization (i18n).
-- Designing authentication flows using **JWT** and optimizing database schemas with **MongoDB Atlas**.
-
----
-
-## Tech Stack
-
-### Frontend
-![React](https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
-
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_APIs-0284c7?style=flat-square&logo=fastapi&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens&logoColor=white)
-
-### Database & Cloud
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
-
-### Tools & Deployment
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
-
----
-
-## Featured Projects
-
-### ZaikaHub
-A recipe discovery web platform built to browse and search curated culinary dishes with real-time API integrations and dynamic client-side routing.
-- **Tech Stack:** React.js • React Router • REST APIs • Tailwind CSS • Netlify
-- **Highlights:**
-  - Implemented seamless navigation using React Router for multi-page view state.
-  - Connected frontend components to external recipe APIs for dynamic content updates.
-  - Designed an adaptive grid layout using Tailwind CSS.
-- **Links:** [Live Demo](https://zaikahubb.netlify.app/)
-
----
-
-### Adaptive Chatbot
-An AI-powered conversational assistant that handles dynamic query responses and stores interaction sessions for user history tracking.
-- **Tech Stack:** React.js • Node.js • Express.js • MongoDB
-- **Highlights:**
-  - Developed custom Express.js REST API routes to process conversational prompts.
-  - Created persistent MongoDB document models to store user chat history and session metadata.
-  - Designed an intuitive React interface with real-time message state rendering.
-- **Links:** [Live Demo](https://chatbot-frontend-3f4it92se-24-harshdeeps-projects.vercel.app/)
-
----
-
-### Resume Analyzer
-An AI-assisted resume evaluation tool designed to analyze resume structure and offer actionable feedback for ATS optimization.
-- **Tech Stack:** React.js • Tailwind CSS • REST APIs
-- **Highlights:**
-  - Built an interactive user dashboard featuring live feedback previews.
-  - Integrated REST API endpoints to process document input and deliver instant scoring metrics.
-  - Formatted actionable suggestions to assist job seekers with keyword matching.
-- **Links:** [Live Demo](https://ai-career-platform-delta.vercel.app/)
-
----
-
-## Professional Experience
-
-### Web Developer Intern | **Axemata Modas**
-*Jul 2026 – Present* | [Verify Certificate](https://drive.google.com/file/d/1IpNHrhQm-cHrD1kcxBwhyVuk2jRDoYPz/view?usp=sharing)
-- Developing full-stack MERN applications using **React.js, Node.js, Express.js, MongoDB**, and **TypeScript**.
-- Designing and implementing secure REST API endpoints to support client-server data synchronization.
-- Integrating backend services with interactive frontend views while delivering features, optimizations, and bug fixes.
-
-### Frontend Developer Intern | **Neximprove**
-*Jan 2026 – Jul 2026* | [Verify Certificate](https://drive.google.com/file/d/1573CNFDEyrAhnZKRcAMIuUUnu0Fe5pDC/view?usp=sharing)
-- Built modular, reusable UI components using **React.js, TypeScript**, and **Tailwind CSS**.
-- Connected client views with REST API endpoints and resolved cross-browser rendering inconsistencies.
-- Collaborated in an Agile team workflow to deliver sprint objectives on schedule.
-
----
-
-## Open Source
-
-### Open Source Contributor | **GirlScript Summer of Code (GSSoC) 2026**
-*May 2026 – Present* | [View GSSoC PR Tracker](https://gssoc-tracker.vercel.app/pr-tracker/24-Harshdeep)
-- Contributing to the **CommitPulse** open-source project with a focus on frontend improvements.
-- Implemented frontend localization (i18n) support to enable multi-language user access.
-- Refactored component structures to enhance overall application accessibility and UI responsiveness.
-
----
-
-## GitHub Analytics & Activity
+## Real-Time GitHub Activity Waveform
 
 <div align="center">
-  <a href="https://portfolio12h.netlify.app/index.html">
-    <img src="https://img.shields.io/badge/Live_Interactive_Dashboard-Open_Web_App-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Interactive App"/>
+  <a href="https://portfolio12h.netlify.app/">
+    <img src="./github-activity-waveform.svg" alt="Real-Time GitHub Activity Waveform" width="100%"/>
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://portfolio12h.netlify.app/">
+    <img src="https://img.shields.io/badge/Interactive_Dashboard-Launch_Live_App-0284c7?style=flat-square" alt="Launch Live App"/>
+  </a>
+</div>
+
+---
+
+## Real-Time Analytics and Engineering Charts
+
+<div align="center">
+  <a href="https://github.com/24-Harshdeep">
+    <img src="https://github-readme-stats.vercel.app/api?username=24-Harshdeep&show_icons=false&theme=tokyonight&hide_border=true&bg_color=080c17&text_color=94a3b8&title_color=38bdf8" width="48%" alt="GitHub Live Stats"/>
+  </a>
+  <a href="https://github.com/24-Harshdeep">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=24-Harshdeep&theme=tokyonight&hide_border=true&background=080c17&ring=38bdf8&fire=38bdf8&currStreakNum=38bdf8" width="48%" alt="GitHub Streak Stats"/>
   </a>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Public_Repos-48-2563eb?style=for-the-badge&logo=github" alt="Public Repos"/>
-  <img src="https://img.shields.io/badge/Contributions_Last_Year-407-0284c7?style=for-the-badge&logo=github" alt="Contributions"/>
-  <img src="https://img.shields.io/badge/Stars_Earned-5-eab308?style=for-the-badge&logo=github" alt="Stars"/>
-  <img src="https://img.shields.io/badge/Merged_PRs-9-22c55e?style=for-the-badge&logo=github" alt="Merged PRs"/>
+  <a href="https://github.com/24-Harshdeep">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=24-Harshdeep&theme=tokyonight" width="48%" alt="Repos per Language"/>
+  </a>
+  <a href="https://github.com/24-Harshdeep">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=24-Harshdeep&theme=tokyonight" width="48%" alt="Most Commit Language"/>
+  </a>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=24-Harshdeep&color=blueviolet&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <a href="https://github.com/24-Harshdeep">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=24-Harshdeep&theme=tokyonight" width="97%" alt="Productive Time Breakdown"/>
+  </a>
 </div>
 
 ---
 
-## Education & Certifications
+## Visual Development Journey Map
 
-### Education
-- **Bachelor of Computer Applications (BCA)** — Eternal University (*2025–2027*)
-
-### Professional Certifications
-- **Prompt Engineering for ChatGPT** — Vanderbilt University ([Verify Certificate](https://www.coursera.org/account/accomplishments/verify/XBMTKTPY0OW6))
-- **Introduction to Git and GitHub** — Google ([Verify Certificate](https://www.coursera.org/account/accomplishments/verify/D9E238813HKD))
-- **Version Control** — Meta ([Verify Certificate](https://www.coursera.org/account/accomplishments/verify/TW70H2NAMY2I))
-- **MongoDB University** — Atlas Setup, CRUD Operations & Database Connections ([Verify Certificate](https://learn.mongodb.com/c/uyYeQapKTumGzcozYK7lGQ))
+<div align="center">
+  <a href="https://portfolio12h.netlify.app/">
+    <img src="./journey-map.svg" alt="Visual Engineering Roadmap and Development Journey" width="100%"/>
+  </a>
+</div>
 
 ---
 
-## Connect With Me
+## Core Pillars and Industry Experience
 
-I am open to Full-Stack Developer roles, software engineering internships, and open-source collaborations.
+| Domain / Project | Role and Period | Core Stack | Verification and Deliverables |
+| :--- | :--- | :--- | :--- |
+| **Neximprove** *(SaaS Platform)* | Frontend Developer Intern<br/>*Jan 2026 – Jul 2026* | React.js, TypeScript, Tailwind CSS, 2FA, Azure | [Verify Certificate](https://drive.google.com/file/d/1573CNFDEyrAhnZKRcAMIuUUnu0Fe5pDC/view?usp=sharing)<br/>Sales UI, Broker Portal, Customer 360 |
+| **Axemata Modas** *(E-Commerce)* | Full Stack Intern<br/>*Jul 2026 – Sep 2026* | Next.js, Express, MongoDB Atlas, JWT | [Certificate](https://drive.google.com/file/d/1IpNHrhQm-cHrD1kcxBwhyVuk2jRDoYPz/view) • [Letter of Recommendation](https://drive.google.com/file/d/1F40hMleezsCwpPg2zc0Ae49j_nJuwvFE/view)<br/>Decoupled Storefront and Admin Architecture |
+| **NavGurukul** *(Eternal University)* | IT Facilitator & Teacher<br/>*Nov 2024 – Aug 2025* | IT Systems, Data, Communication | [Certificate](https://portfolio12h.netlify.app/)<br/>Technical Ticket Resolution and Coaching |
+| **GirlScript Summer of Code** | Global Rank #1,493<br/>*May 2026 – Aug 2026* | Open Source, React, Git, i18n | [Verify Certificate](https://drive.google.com/file/d/1PX5a8u1xOJLLbQO5ICWpXVuAKQU4QzNh/view?usp=sharing)<br/>[GSSoC Profile](https://gssoc.girlscript.org/profile/6cfd5893-9684-4568-869b-b2583dac461f) |
+| **Smartly Labs AI Track** | AI Developer Contributor<br/>*Jul 2026 – Aug 2026* | Smartly Labs, AI Agents, Python | [Verify Certificate](https://drive.google.com/file/d/1jkHj33mH-d1dcBB1dMoGk3-CHQRBSnZt/view?usp=sharing)<br/>[Smartly Profile](https://infra.smartlylabs.ai/profile) |
 
-- **Email:** [harshdeepkaur1208@gmail.com](mailto:harshdeepkaur1208@gmail.com)
-- **LinkedIn:** [linkedin.com/in/harshdeep-kaur-58b5a4320](https://linkedin.com/in/harshdeep-kaur-58b5a4320)
-- **Portfolio:** [portfolio12h.netlify.app](https://portfolio12h.netlify.app/)
+---
 
-<br/>
+## Featured Software and AI Agents
+
+| Application | Classification | Highlights | Access Links |
+| :--- | :--- | :--- | :--- |
+| **GitFix** | AI Developer Agent | Diagnoses Git errors and provides safe resolution commands | [Launch Agent](https://infra.smartlylabs.ai/agents/cmt7498fv00030ai20hy3qwzg/chat) |
+| **Internship Researcher** | AI Career Tool | Automated web scraper and eligibility parsing agent | [Launch Agent](https://infra.smartlylabs.ai/agents/cmsn2q2je000z04lhwzl2q7ai/chat) |
+| **Resume Analyzer** | AI Career Platform | Evaluates ATS formatting, structure, and keywords | [Live Demo](https://ai-career-platform-delta.vercel.app/) • [Source Code](https://github.com/24-Harshdeep/ai-career-platform) |
+| **ZaikaHub** | Recipe Discovery App | React application with dynamic recipe API integrations | [Live Demo](https://zaikahubb.netlify.app/) • [Source Code](https://github.com/24-Harshdeep/Zaikahub) |
+| **Adaptive Chatbot** | Conversational AI | Express REST APIs with MongoDB conversation tracking | [Live Demo](https://chatbot-frontend-3f4it92se-24-harshdeeps-projects.vercel.app/) • [Source Code](https://github.com/24-Harshdeep/ChatBot-FullStack-) |
+
+---
+
+## Technical Stack Matrix
+
+```
+Frontend    React.js · Next.js · TypeScript · JavaScript · Tailwind CSS · HTML5 · CSS3
+Backend     Node.js · Express.js · RESTful APIs · JWT Authentication · Python
+Database    MongoDB · MongoDB Atlas · Microsoft Azure · SQL Basics
+Workflow    Git · GitHub · GitHub Actions · Agile / Scrum · UAT Testing · Vercel · Netlify
+AI & Data   Autonomous AI Agents · LLM Integrations · System Design · DSA
+```
+
+---
+
+## Verified Credentials and Certifications
+
+| Credential | Issuer | Verification |
+| :--- | :--- | :--- |
+| **English Coordinator and Coach** | NavGurukul | [Verify Credential](https://portfolio12h.netlify.app/) |
+| **Prompt Engineering for ChatGPT** | Vanderbilt University (Coursera) | [Verify Certificate](https://www.coursera.org/account/accomplishments/records/XBMTKTPY0OW6) |
+| **Introduction to Git and GitHub** | Google (Coursera) | [Verify Certificate](https://www.coursera.org/account/accomplishments/records/D9E238813HKD) |
+| **Version Control** | Meta (Coursera) | [Verify Certificate](https://www.coursera.org/account/accomplishments/records/TW70H2NAMY2I) |
+| **MongoDB Developer Certification** | MongoDB University | [Verify Certificate](https://learn.mongodb.com/c/0XYPSLsfTb6JKQalEoNHEg) |
+| **GSSoC 2026 Contributor Award** | GirlScript Foundation | [Verify Certificate](https://drive.google.com/file/d/1PX5a8u1xOJLLbQO5ICWpXVuAKQU4QzNh/view?usp=sharing) |
+| **Smartly Labs AI Track Award** | Smartly Labs and GS Labs | [Verify Certificate](https://drive.google.com/file/d/1jkHj33mH-d1dcBB1dMoGk3-CHQRBSnZt/view?usp=sharing) |
+| **Neximprove Internship Award** | Neximprove | [Verify Certificate](https://drive.google.com/file/d/1573CNFDEyrAhnZKRcAMIuUUnu0Fe5pDC/view?usp=sharing) |
+| **Axemata Modas Internship & LOR** | Axemata Modas | [Certificate](https://drive.google.com/file/d/1IpNHrhQm-cHrD1kcxBwhyVuk2jRDoYPz/view) • [Letter of Recommendation](https://drive.google.com/file/d/1F40hMleezsCwpPg2zc0Ae49j_nJuwvFE/view) |
+
+---
 
 <div align="center">
-  <sub>"Code with purpose, deploy with impact." — Harshdeep Kaur</sub>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0284c7,38bdf8&height=120&section=footer" width="100%"/>
 </div>

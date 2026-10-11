@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="100%" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Roboto, sans-serif">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="journeyBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a14"/>
+      <stop offset="50%" stop-color="#0a1020"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <!-- Glowing Pathway Gradient -->
+    <linearGradient id="timelineTrackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="25%" stop-color="#38bdf8"/>
+      <stop offset="55%" stop-color="#0ea5e9"/>
+      <stop offset="85%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="trackGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Card Shadow Filter -->
+    <filter id="boxShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Background Matrix Grid Pattern -->
+    <pattern id="circuitGrid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M 35 0 L 0 0 0 35" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.35"/>
+      <circle cx="0" cy="0" r="1" fill="#334155" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <style>
+    /* CSS Pulse and Glow Animations */
+    @keyframes beaconPulse {{
+      0% {{ r: 4px; opacity: 1; }}
+      50% {{ r: 12px; opacity: 0.2; }}
+      100% {{ r: 4px; opacity: 1; }}
+    }}
+    @keyframes trackBreathe {{
+      0% {{ stroke-opacity: 0.75; filter: drop-shadow(0 0 4px #38bdf8); }}
+      50% {{ stroke-opacity: 1.0; filter: drop-shadow(0 0 10px #38bdf8); }}
+      100% {{ stroke-opacity: 0.75; filter: drop-shadow(0 0 4px #38bdf8); }}
+    }}
+    @keyframes cardHighlight {{
+      0% {{ stroke-opacity: 0.5; }}
+      50% {{ stroke-opacity: 1.0; }}
+      100% {{ stroke-opacity: 0.5; }}
+    }}
+    .beacon-ping {{
+      animation: beaconPulse 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }}
+    .animated-bus-line {{
+      animation: trackBreathe 3s ease-in-out infinite;
+    }}
+    .card-border-pulse {{
+      animation: cardHighlight 4s ease-in-out infinite;
+    }}
+    .timeline-card {{
+      cursor: pointer;
+      transition: transform 0.25s ease, filter 0.25s ease;
+    }}
+    .timeline-card:hover {{
+      filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.45));
+    }}
+  </style>
+
+  <!-- Canvas Container -->
+  <rect x="5" y="5" width="990" height="610" rx="14" fill="url(#journeyBgGrad)" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="5" y="5" width="990" height="610" rx="14" fill="url(#circuitGrid)"/>
+
+  <!-- Header -->
+  <g transform="translate(35, 28)">
+    <text x="0" y="12" font-size="10" font-weight="800" fill="#38bdf8" letter-spacing="1.8">ENGINEERING ROADMAP &amp; CAREER TIMELINE</text>
+    <text x="0" y="32" font-size="19" font-weight="800" fill="#f8fafc" letter-spacing="-0.4">Interactive Development Journey</text>
+    <text x="0" y="48" font-size="12" font-weight="600" fill="#94a3b8">Progression from foundational CS to production SaaS, full-stack e-commerce, and autonomous AI agents</text>
+
+    <!-- Top Status Indicator -->
+    <g transform="translate(740, 10)">
+      <circle cx="8" cy="10" r="8" fill="#10b981" opacity="0.2" class="beacon-ping"/>
+      <circle cx="8" cy="10" r="3.5" fill="#10b981"/>
+      <text x="24" y="14" font-size="11" font-weight="700" fill="#10b981" letter-spacing="0.5">LIVE TIMELINE SYNC</text>
+    </g>
+  </g>
+
+  <!-- Central Circuit Backbone Route -->
+  <path id="mainBusLine" d="M 55 285 H 935" stroke="url(#timelineTrackGrad)" stroke-width="4.5" stroke-linecap="round" class="animated-bus-line" filter="url(#trackGlow)"/>
+  
+  <!-- Flowing Energy Dashes along the Bus Line -->
+  <line x1="55" y1="285" x2="935" y2="285" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="8 16">
+    <animate attributeName="stroke-dashoffset" from="0" to="-48" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Traveling Energy Particle Orb -->
+  <circle r="5" fill="#ffffff" filter="url(#nodeGlow)">
+    <animateMotion dur="5s" repeatCount="indefinite">
+      <mpath href="#mainBusLine"/>
+    </animateMotion>
+  </circle>
+
+  <!-- ==================== TOP ROW CARDS ==================== -->
+
+  <!-- Milestone 01 (Top Left): 2024 BCA & Foundation -->
+  <g transform="translate(70, 90)" class="timeline-card">
+    <rect x="0" y="0" width="190" height="135" rx="8" fill="#0b1222" stroke="#0284c7" stroke-width="1.2" filter="url(#boxShadow)"/>
+    <rect x="12" y="12" width="50" height="18" rx="4" fill="#0284c7"/>
+    <text x="37" y="25" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">2024</text>
+    <text x="12" y="46" font-size="12.5" font-weight="800" fill="#f8fafc">BCA Foundation</text>
+    <text x="12" y="62" font-size="10.5" font-weight="600" fill="#38bdf8">Eternal University</text>
+    <text x="12" y="82" font-size="10" font-weight="500" fill="#94a3b8">Built ZaikaHub recipe platform</text>
+    <text x="12" y="97" font-size="10" font-weight="500" fill="#94a3b8">Built Adaptive Chatbot with</text>
+    <text x="12" y="112" font-size="10" font-weight="500" fill="#94a3b8">MongoDB session persistence</text>
+
+    <!-- Connector stem to bus line -->
+    <line x1="95" y1="135" x2="95" y2="195" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <circle cx="95" cy="195" r="5" fill="#0284c7" stroke="#060a14" stroke-width="2"/>
+  </g>
+
+  <!-- Milestone 03 (Top Center): 2025 MERN Expansion -->
+  <g transform="translate(370, 90)" class="timeline-card">
+    <rect x="0" y="0" width="190" height="135" rx="8" fill="#0b1222" stroke="#0ea5e9" stroke-width="1.2" filter="url(#boxShadow)"/>
+    <rect x="12" y="12" width="50" height="18" rx="4" fill="#0284c7"/>
+    <text x="37" y="25" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">2025</text>
+    <text x="12" y="46" font-size="12.5" font-weight="800" fill="#f8fafc">Advanced MERN</text>
+    <text x="12" y="62" font-size="10.5" font-weight="600" fill="#38bdf8">Full-Stack Architecture</text>
+    <text x="12" y="82" font-size="10" font-weight="500" fill="#94a3b8">REST API design &amp; JWT auth</text>
+    <text x="12" y="97" font-size="10" font-weight="500" fill="#94a3b8">MongoDB Atlas indexing</text>
+    <text x="12" y="112" font-size="10" font-weight="500" fill="#94a3b8">TypeScript frontend typing</text>
+
+    <!-- Connector stem to bus line -->
+    <line x1="95" y1="135" x2="95" y2="195" stroke="#0ea5e9" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <circle cx="95" cy="195" r="5" fill="#0ea5e9" stroke="#060a14" stroke-width="2"/>
+  </g>
+
+  <!-- Milestone 05 (Top Right): 2026 Axemata Modas Internship -->
+  <g transform="translate(670, 90)" class="timeline-card">
+    <rect x="0" y="0" width="190" height="135" rx="8" fill="#0b1222" stroke="#06b6d4" stroke-width="1.2" filter="url(#boxShadow)"/>
+    <rect x="12" y="12" width="50" height="18" rx="4" fill="#0284c7"/>
+    <text x="37" y="25" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">2026</text>
+    <text x="12" y="46" font-size="12.5" font-weight="800" fill="#f8fafc">Axemata Modas</text>
+    <text x="12" y="62" font-size="10.5" font-weight="600" fill="#38bdf8">Full Stack Intern (Jul-Sep)</text>
+    <text x="12" y="82" font-size="10" font-weight="500" fill="#94a3b8">Decoupled storefront &amp; admin</text>
+    <text x="12" y="97" font-size="10" font-weight="500" fill="#94a3b8">Express REST API controllers</text>
+    <text x="12" y="112" font-size="10" font-weight="500" fill="#94a3b8">Earned verified LOR &amp; Award</text>
+
+    <!-- Connector stem to bus line -->
+    <line x1="95" y1="135" x2="95" y2="195" stroke="#06b6d4" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <circle cx="95" cy="195" r="5" fill="#06b6d4" stroke="#060a14" stroke-width="2"/>
+  </g>
+
+  <!-- ==================== BOTTOM ROW CARDS ==================== -->
+
+  <!-- Milestone 02 (Bottom Left-Center): 2024-2025 NavGurukul -->
+  <g transform="translate(220, 345)" class="timeline-card">
+    <!-- Connector stem to bus line -->
+    <line x1="95" y1="-60" x2="95" y2="0" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <circle cx="95" cy="-60" r="5" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+
+    <rect x="0" y="0" width="190" height="135" rx="8" fill="#0b1222" stroke="#38bdf8" stroke-width="1.2" filter="url(#boxShadow)"/>
+    <rect x="12" y="12" width="68" height="18" rx="4" fill="#0369a1"/>
+    <text x="46" y="25" font-size="8.5" font-weight="800" fill="#ffffff" text-anchor="middle">2024-2025</text>
+    <text x="12" y="46" font-size="12.5" font-weight="800" fill="#f8fafc">NavGurukul</text>
+    <text x="12" y="62" font-size="10.5" font-weight="600" fill="#38bdf8">IT &amp; Teacher Intern (10m)</text>
+    <text x="12" y="82" font-size="10" font-weight="500" fill="#94a3b8">Support ticket resolution</text>
+    <text x="12" y="97" font-size="10" font-weight="500" fill="#94a3b8">Lab data analysis &amp; reports</text>
+    <text x="12" y="112" font-size="10" font-weight="500" fill="#94a3b8">Language workshops coaching</text>
+  </g>
+
+  <!-- Milestone 04 (Bottom Center): 2026 Neximprove SaaS -->
+  <g transform="translate(520, 345)" class="timeline-card">
+    <!-- Connector stem to bus line -->
+    <line x1="95" y1="-60" x2="95" y2="0" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <circle cx="95" cy="-60" r="5" fill="#38bdf8" stroke="#060a14" stroke-width="2"/>
+
+    <rect x="0" y="0" width="190" height="135" rx="8" fill="#0b1222" stroke="#38bdf8" stroke-width="1.2" filter="url(#boxShadow)"/>
+    <rect x="12" y="12" width="50" height="18" rx="4" fill="#0284c7"/>
+    <text x="37" y="25" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">2026</text>
+    <text x="12" y="46" font-size="12.5" font-weight="800" fill="#f8fafc">Neximprove</text>
+    <text x="12" y="62" font-size="10.5" font-weight="600" fill="#38bdf8">Frontend Intern (Jan-Jul)</text>
+    <text x="12" y="82" font-size="10" font-weight="500" fill="#94a3b8">Sales UI &amp; Broker Portal modules</text>
+    <text x="12" y="97" font-size="10" font-weight="500" fill="#94a3b8">Two-factor auth (2FA) &amp; OTP</text>
+    <text x="12" y="112" font-size="10" font-weight="500" fill="#94a3b8">Learning wizard &amp; Customer 360</text>
+  </g>
+
+  <!-- Milestone 06 (Bottom Right): 2026 GSSoC Rank #1493 & AI Track -->
+  <g transform="translate(800, 345)" class="timeline-card">
+    <!-- Connector stem to bus line -->
+    <line x1="85" y1="-60" x2="85" y2="0" stroke="#10b981" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <circle cx="85" cy="-60" r="5" fill="#10b981" stroke="#060a14" stroke-width="2"/>
+
+    <rect x="0" y="0" width="170" height="135" rx="8" fill="#0b1222" stroke="#10b981" stroke-width="1.2" filter="url(#boxShadow)"/>
+    <rect x="12" y="12" width="75" height="18" rx="4" fill="#10b981"/>
+    <text x="49" y="25" font-size="8" font-weight="800" fill="#060a14" text-anchor="middle">RANK #1493</text>
+    <text x="12" y="46" font-size="12.5" font-weight="800" fill="#f8fafc">GSSoC &amp; AI Track</text>
+    <text x="12" y="62" font-size="10.5" font-weight="600" fill="#10b981">Open Source (May-Aug)</text>
+    <text x="12" y="82" font-size="10" font-weight="500" fill="#94a3b8">CommitPulse i18n localization</text>
+    <text x="12" y="97" font-size="10" font-weight="500" fill="#94a3b8">Built GitFix AI diagnostic agent</text>
+    <text x="12" y="112" font-size="10" font-weight="500" fill="#94a3b8">Built Internship Researcher agent</text>
+  </g>
+
+  <!-- ==================== TERMINAL NODE (PRESENT) ==================== -->
+  <g transform="translate(945, 285)">
+    <circle cx="0" cy="0" r="16" fill="#10b981" opacity="0.2" class="beacon-ping"/>
+    <circle cx="0" cy="0" r="9" fill="#10b981" filter="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="3.5" fill="#ffffff"/>
+    <text x="0" y="-22" font-size="10" font-weight="800" fill="#10b981" text-anchor="middle">NOW</text>
+    <text x="0" y="28" font-size="9" font-weight="700" fill="#94a3b8" text-anchor="middle">BUILDING</text>
+  </g>
+
+  <!-- Footer Info Bar -->
+  <g transform="translate(35, 580)">
+    <text x="0" y="10" font-size="11" font-weight="600" fill="#64748b">Milestones verified via official credentials, certificates, and pull request trackers</text>
+    <a href="https://portfolio12h.netlify.app/" target="_blank">
+      <text x="930" y="10" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="end">Interactive Web Portfolio: portfolio12h.netlify.app</text>
+    </a>
+  </g>
+</svg>
