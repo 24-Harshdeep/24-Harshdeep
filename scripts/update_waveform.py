@@ -40,7 +40,9 @@ def main():
             total_stars = calc_stars
 
     # Load authentic contribution distribution
-    local_path = os.path.join(ROOT_DIR, "../Portfolio/src/data/githubContributions.json")
+    repo_data_path = os.path.join(ROOT_DIR, "scripts/contributions-data.json")
+    portfolio_path = os.path.join(ROOT_DIR, "../Portfolio/src/data/githubContributions.json")
+    local_path = repo_data_path if os.path.exists(repo_data_path) else portfolio_path
     days = []
     total_contribs = 407
 
